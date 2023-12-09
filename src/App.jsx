@@ -8,7 +8,7 @@ const App = () => {
   return (
     <div className='page'>
       <div className='overlay'></div>
-      <img className='bg-img' src={BgImg}/>
+      <img className='bg-img' src={BgImg} />
       <div className="page-content">
         <h1>Launching Soon</h1>
         <h3>Leave your email and we'll let you know once the site goes live.</h3>
@@ -19,9 +19,11 @@ const App = () => {
           labels={['DAYS', 'HOURS', 'MINUTES', 'SECONDS']}
           duration={0.5}
         >
-          Finished
         </FlipClockCountdown>
       </div>
+      <div className="btn">
+        <button>Notify me</button>
+        </div>
     </div>
   );
 };

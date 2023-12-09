@@ -61,7 +61,7 @@ body {
 .overlay {
     background: rgba(0, 0, 0, 0.7);
     position: absolute;
-    top:0;
+    top: 0;
     left: 0;
     width: 100%;
     height: 100%;
@@ -69,7 +69,6 @@ body {
 
 .page-content {
     position: absolute;
-    top: 22%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -84,17 +83,21 @@ body {
 .page-content h3 {
     font-weight: 300;
     max-width: 400;
+    margin-bottom: 16rem;
 }
 
 .clock {
     position: absolute;
     top: 50%;
 }
-.btn{
+
+.btn {
     position: absolute;
-    top: 75%;
+    top: 50%;
+    margin-top: 12rem;
 }
-.btn button{
+
+.btn button {
     width: 10rem;
     padding: .7rem;
     border-radius: .5rem;
@@ -105,7 +108,8 @@ body {
     transition: all 0.3s;
     text-transform: uppercase;
 }
-.btn button:hover{
+
+.btn button:hover {
     background-color: #ccccccd8;
 }
 
@@ -138,12 +142,7 @@ body {
     .page-content h3 {
         font-size: 1rem;
     }
-.btn{
-    top: 65%;
-}
-.clock{
-    top: 45%;
-}
+
     .flip-clock {
         --fcc-digit-block-width: 30px;
         /* width of digit card */
